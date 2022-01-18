@@ -1,0 +1,16 @@
+﻿{
+  "Id": "2avQtjbXWkW1o1zyKM66XQ",
+  "Reference": "KFWMnlEgcEuIKaqYWr5VhA/2avQtjbXWkW1o1zyKM66XQ",
+  "ParentRef": "KFWMnlEgcEuIKaqYWr5VhA/SDTN2HtQqE6qdkLbFZAxxg",
+  "Name": "First Name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-11-02T10:52:10.5667531Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-02T10:54:02.0074596Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

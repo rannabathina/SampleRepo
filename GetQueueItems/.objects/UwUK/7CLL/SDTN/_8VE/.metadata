@@ -1,0 +1,16 @@
+﻿{
+  "Id": "_8VEGL-VjUi3AgxAfEAyFQ",
+  "Reference": "KFWMnlEgcEuIKaqYWr5VhA/_8VEGL-VjUi3AgxAfEAyFQ",
+  "ParentRef": "KFWMnlEgcEuIKaqYWr5VhA/SDTN2HtQqE6qdkLbFZAxxg",
+  "Name": "Phone Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-11-02T11:01:56.8161371Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-02T11:04:26.3265553Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

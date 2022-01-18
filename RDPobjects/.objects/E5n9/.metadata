@@ -1,0 +1,11 @@
+﻿{
+  "Id": "E5n9AbGAIkSx1nRzeG5iGA",
+  "Reference": "Fj9DIjzMAk2b5iwgvUNrRg/E5n9AbGAIkSx1nRzeG5iGA",
+  "Name": "Remote Desktop Connection app",
+  "Type": "App",
+  "Created": "2021-11-09T06:27:12.0668344Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-09T06:27:12.0668344Z"
+}

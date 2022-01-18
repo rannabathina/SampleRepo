@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="BShAaFe7PEuK8JckERX2SQ" Selector="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" Url="http://www.rpachallenge.com/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0Sp_N_f094EuaHW8HDE4cBg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="43ff9123f3477fd5a3bc4eccc2f36959.png" xmlns="">0aEefG-fCgkKwfUJdBpJjNQ</imageRef>
+</TargetApp>

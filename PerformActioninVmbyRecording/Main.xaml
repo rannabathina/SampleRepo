@@ -1,0 +1,319 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="654,1318" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="552,3518" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: explorer.exe" sap:VirtualizedContainerService.HintSize="510,817" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="9a86960e-8d86-41ab-b930-3e69afed29cb" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,528" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'rdp'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="rdp" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="48, 0, 344, 40" ElementType="Button" FriendlyName="'rdp'" FullSelectorArgument="&lt;wnd cls='Button' title='rdp' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Button' title='rdp' check:text='rdp' /&gt;" Guid="e0b40a5f-4e20-4bb2-8d9d-84a6ebd4fd10" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAVwAAAAoCAYAAACy0kJPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVISURBVHhe7Z07UuNKFIYJIaUgvp5XggOyeVbded0VeBFASOKteB9QmBzWYFJCyNlAj/4jt9xttR72SIB9P1V95bFOd6ulKn0cH7XHO28//3Tvvvxyt7e3AADQA+++/nJvPv9wJtz3X3/bzqenJwAA6BAv3LdffrodZbc+w001BgCA9ZFbB5++GwgXAKBHfIZrJYU3n344gXABALpHbn3/7fciw1UdF+ECAHSP3Krs1jJcPTBDuAAA/SC36oGZPTQLl4WlGgMAwPpEGa6ESw0XAKAffIarOq6VFFiHCwDQD164VlKQbCkpAAD0gxdusSwM4QIA9IPcKtnasrA+Hprd3d25k5MTNxgM3O7urr3qvfan2gMAbCtyq774UAi3yxru5eWl29/fd+fn5+7m5sY9PDzYq95r/8XFRbIfAMA2IrcWNVxlt11luMpgJdWrq6tkXPsVJ9MFgP8LPsO1VQpdCldlA2WyqZhHcbVLxeqYjoduOKxgPE326Y+Zm4yGbjxNxWA9uKawncitquFKup3WcFWrVfkgFfMornapWFtMvs8u2ZBXIofp2A1HEzdLxTYOhAvbiReurVLoMsPd29uzmm0q5nl8fLQHaalYWxDuHIQL8OopCVdZbhfCPTo6epEMNyXg2WRUyEjx0WSW7/NliISoovhw5CazOL7AyyF/rWpfPZ7vP3Vji43dtLFPjJ1z0S4jOP94jDiWROIu2sfHrJ3PbOJGRSwjuqZtz9FLtt01Bdg0IuFKtl0J9+zsrLcabkhJsKVMz9+8QfvsBpZ0w3hJUuEYJqGFJGK8FBZCsGME/evHy/uPRuOy3FrPIaN03l5mYZ/yuUaYNAOxTSfFv5vmM5uE818+Ts05hvPLjj8JhFt3TQE2EblV9Vur4XaZ4d7f3z/LKoWScJ+URQXSMIksbupye9/G91nqb+QCSH/EncukEHhGdMym8RL9V55DRkm4qTEylq5Hu9jfzqfqHNe9pgCbic9wbVnY4OP3zmq40+zj48HBgUlVmazKB32sw00JVPv8zWpZVBAPYwsCoVjmpuyqTJ0colgo8MbxEv1XnkPGsnBtjLby9ORzKR2n5XzyjDWILwm3PGaVQBuuadQWYHPwwrVlYV2VFLxs9apM9/T01Gq6epDW9TfNkhlrIZ/yjdtOuKtkUg1yaBxvVRlVUJxz8H5l4c6x+Uua8/6N88mz1dLxES5AhNyq7NZKCl38xE4o21S8a5LC9VKZ6iaNb+pKQft2K9/YDXJoHK8juUSCy6gaw/bXydOTz8v+ODXNJzFmXPNd9RwRLmwncquyWyspKLv9m5LC9fX1s8pWpIU7z2RHcTnB748/CufZWZj15m1CgWQCGAcyi2iWQ/14if4Zq80hI5ExJsfwEg3aFWRjLOYRz6t2PssytPdZ+zrhZpTGzPqFD83qrinAJuIz3GJZ2LrClWwPDw/tNRXvC7tpE8KtukHVfjSZ2g1d1BorhF3EMyol1VIO1eOlZVTfJ0U+jrUNzme5rlo7hhdlRdu6+UTHkWijjLvtOfprhnBhO5Fbi2Vh6/6m2UvJtpblj9hzdIPXiwsAoB86yXCPj49fl2znGVJKrAgXAF6KknC7Wof7UhQfUVNlhnkc4QLAS+CFaw/NtEJh04ULAPBaiYSrDPfDt/8QLgBAD8it+rWHzv97RgAAiPEZ7j8f/0W4AAB9Ircqu7WHZhIuNVwAgH6QWyVbq+GS4QIA9Ifcqq/2kuECAPSM3KrsFuECAPRMJFyVE/T1XoQLANA9cmtUwyXDBQDoBy9crcXdcWxsbGxsz7A59we+E89ChTFMlQAAAABJRU5ErkJggg==" InformativeScreenshot="d8003011f5259bca185618650c2f56a3.png" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="334,178" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\\Windows\\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMISURBVFhH7ZbtS1NhGMb3X/QvWCkEZmofDHHzpblp29SlEREREUGf+hj0KQoioqgvEQX+CbVsa77uzZfpcZupZZaJ8zQT5gzUc/Scq/s5PnLKHWFO2Ze84AcPz/1c13VzPh3TkY60o7nXJoFAjqSJU9x6ONpVkAuHu8TsSxP2w5LPDMw/Br7f2z8LzwVeq2vyqQm5MPPqGFJeKzD3APh8Kz9m7oDX6sLsXeTMl9sUdPNA8FpdmL6BQsJrdWHqOgoJr9WFqWs0KBy8Vhcmr6KQ8FpdmLxCg8LBa3Xh02XsRp3QUfZD4l+vUTav1YWJS9hBTXRAiXdgM9YOebwdG8JFbIztD4k8zMsytiiLZf7dwWt1YaKdBu1UzIxurI+2YXWoBemwC8tBJ34FnFgKOHKCvWWedMSlZaxRFstk2Uhs9/BaXUi4ocbd2BpvxVq0BSsRJzp7fXB2/jgQLGMl7NAyNylbjbfREm6jBWgYa4EsuPB7yIFUnx22N3M4+2L2QLCMVL9dy5THXFCoA/FWgwXiLlrASY8cyESakOy2Ggbmg9jTqGVKow5awEkLuAwWiDmgjl+APNqMTNiGpL/BMCwfxO7zyIRskKLNUKiDdfFaXYg10wJNtICdHluR/FhnGJYPYne9lilF7VCEJlqg2WCBcTtUwQY5Sp8r2EAL1JL5axaznhrMdZkx77VgwbcNO7O7bzQz8oj+Wi1TGmmkBWxgXbxWFwQr1DEr5BH6XME6JOmHo/LZdBYL3hos99ViNVSPtcFt2Jnd7eUR/WZkAnWQhhugUAfr4rW6MGaBGrVAHqLHA9VIfqhCxZNEFklvFdJ91ViP1GBzxKzBziv91RB95ww97J5lSoM1UKgDoxaDBYYroQ5VQg6XI9NbhqSnFGceCVksvi/FSk8ZNoLlUAYrNNiZecQuY49IHjaXQtse1sVrdSFSIqihEsiBYqz6T2DxbRHKHg5n8fNdETI0lwZOQgkVa7Az86Q8x409niJtvuNBuCT7n9BIp++HsBs+2lP5eI70P8tk+gMabT1X5bEGngAAAABJRU5ErkJggg==" InformativeScreenshot="463768edf9119c07b8e772639b187d35.png" Selector="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Remote Desktop Connection" sap:VirtualizedContainerService.HintSize="510,512" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="a8643fb0-7910-4cea-bcaf-9d731bddbb42" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,223" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="40.122.31.27[k(enter)]" Version="V1" />
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\\Windows\\System32\\mstsc.exe" IconBase64="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" InformativeScreenshot="400f3211e279db3237c4d587ec6000a1.png" Selector="&lt;wnd app='mstsc.exe' cls='#32770' title='Remote Desktop Connection'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Windows Security" sap:VirtualizedContainerService.HintSize="510,2017" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="889ac7fb-11e0-4213-bcb4-c341bf816010" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,1728" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'More choices'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="889ac7fb-11e0-4213-bcb4-c341bf816010" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="25, 252, 83, 19" ElementType="Text" FriendlyName="'More choices'" FullSelectorArgument="&lt;ctrl automationid='ChooseAnotherOption' /&gt;&lt;ctrl name='More choices' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ChooseAnotherOption' /&gt;&lt;ctrl name='More choices' role='text' automationid='' check:text='More choices' /&gt;" Guid="be84abd1-0fb5-498a-adf7-77ce8ee07711" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFcAAAAXCAYAAAB+kNMAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHzSURBVGhD7ZS7TcRAFEW3CqqgCqqgDEJyQkROTA4NUMIWgPgIIQK3YXRWutL18xvboJ0N0AuOdnbu+80d27thGMaiD2VuR8rcjpS5HSlzO1LmdqTM7cjE3PO7t3F3/TIJcK6ePg/67fNXqp+Si/v38fLhI9W2wFkh047FzNyzm9fm0GjwH8w9BTNzGRoDfR8wtMz9HTNzGRgD+QREjb1o7uP++/CpEP6qSdPnBEPYJ99z1i6LnopVfZnLf2lxZnRpUUfTPCLrA8Rpn5gtOZCayxAeKJNYu7nad3PI09DS/RAxR0ZLj6Axk/5rrQOrji7Q49yI2Dea2+oT65CjPF8rVmtIzT0INggFtO/mxuLgF6E1v9KzHPqqphMv2cnqeC+fX3AG5fh6qU+sQ32ZTY1WHjTN9eY+dDRX8Y7igbVr5LAX8VdW+AyRrDd1NBtrzSzcRK+91MdndKT7eTwPmubKmNj4L0+u68RHU1oQ13oysjr0cnP9iQM/S1y3+lAnXlIGF+efD2iaCzSPQ7q5/EadGho6M1c5WwZWvj/Vmm/NXHQ/rGpJd3PX+rSM9/46l+uL5pIQC7u5iqGo0MCQmQscwnPijTuqIfzQPiug+2zEeK5r5GazCq+NB5m2VB8m5hbHpcztSJnbkTK3I2VuR8rcbgzjD5Udkdp9RqjcAAAAAElFTkSuQmCC" InformativeScreenshot="9025fbec7b9db0f1ad09f1c264ab8d4a.png" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Use a different account'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="889ac7fb-11e0-4213-bcb4-c341bf816010" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="93, 354, 296, 19" ElementType="Text" FriendlyName="'Use a different account'" FullSelectorArgument="&lt;ctrl name='Switch to Local or domain account password' role='list item' /&gt;&lt;ctrl automationid='StaticTextField_0' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Switch to Local or domain account password' role='list item' /&gt;&lt;ctrl automationid='StaticTextField_0' role='text' check:text='Use a different account' /&gt;" Guid="bc67436e-cfbb-4c50-baa1-874e9b16f736" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASwAAAAXCAYAAACxt3KvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMcSURBVHhe7ZftbepAEEUphVLohEbogzbogk5ow08H6UrXk7EdkuBkn+6PI+yd2flYdi7J4fF4TCGEMAIRrBDCMESwQgjDEMEKIQxDBCuEMAwRrBDCMESwQgjDMBOs4/E4Xa/XmQOcTqfpcrl8WP8tqJGaeL7dbtPhcHh+yk6trNGP1niHrr8QwhgML1iV+/3+FCY+tXY+n5+4357UekaHHwf/MQhhL/47wdJfXL722/VHsEL4Gb4kWPgxhODCwV6tbw0pf/F81lciJKpgaX/NTw6vFZSH/VrzWPTJPtn1r6bX68Oq4fXcilfr9n1O9aviWvtSTeDr/ldkPV/fg63mcB/Z/YyoARvrWgPPGcK7eVmwuKB+SbWuoZMgEGdpQKHGcNFwiEfcOqTu73lVh2zg9QO5fb/b+az5WPNe/AyUz/vh3c/R6+vwvepX/qpHdvKB/DyPeqj9qUbFxC5fgV09Y/d3ctQa1r7bEN7Fy4LFpw9D5yOItzaoYm0AGB4faKBGr8GHUcMpG3htGnSviz2K1/XnwwvsVb1dvioINd8WxFY+f3aIX88Fuv7Aa6r1gfeIvcb2mPgtfV8hvJOZYDGoS4Ll61xmLjC4j9acbthAv9pO59cN108IVkUD2AlB5w/YuuGtA49vFZBKja3zXtrbnQuov7rufXV72eOCtWbveg5hD2aCtTQES7/yDJUu7pLYdZDDLzyxuyGDribevytYbnfw02ALj1/phpf9HmNtv+rx8yWeC1Z39jWHULyaD1+dgT8Lz7Nl73oOYQ9mgsVFrAPCxfXL6RdZ/jwzYHreog4bz0t7lUMDqIH8qmDp3fM7+FUb757PId9nBMvP1Kn16l2CRRyPj13UuOqRWr1e+eqM6nfFPo9FTj8vcLviuT2EPZgJFugyi24Y3V4Hxm1LQw7up5idH3hc6qFGj836K4IFxFFMkEDg52IjiOH+ike+LcFS/dVP+JmSRz12dtC6ehW+p9ar8+nsqk/fJfnqebkdtN/7DOHdfBCsEEL4q0SwQgjDEMEKIQxDBCuEMAwRrBDCMESwQgiD8Jj+ASOexp7QjxhJAAAAAElFTkSuQmCC" InformativeScreenshot="882fddaf40499e79f5742dc957f63d02.png" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="25, 333, 406, 60" FriendlyName="'Switch to'" FullSelectorArgument="&lt;ctrl name='Switch to Local or domain account password' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Switch to Local or domain account password' role='list item' automationid='' check:text='Switch to Local or domain account password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZoAAABACAYAAAAj1LGeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUrSURBVHhe7duvUmNZFMVhHoVHQfMSaDSWQlNjESg8kkJO4dF4RCteIzMr1GpWb3ZCejp7uHT/xFck55x7/lxq9uqQOwcvLy8rAACmEDQAgFEEDQBgFEEDABhF0AAARhE0AIBRBA0AYBRBAwAYRdAAAEYRNACAUQQNAGAUQQMAGEXQAABGETQAgFEEDQBgFEEDABhF0AAARhE0AIBRBA0AYBRBAwAYRdAAAEYRNACAUQQNAGAUQQMAGEXQAABGETQAgFGLDZrn5+fV1dXV6vj4eHV0dLSm12pTX3cNAGB5Fhk0CpKTk5N1uJyenq7DRfRabeojbADga1hk0FxeXq4D5ebm5l2f2tSnMbVv3w4PD1fX19fv2rX++fn5u/bPoj1qT3p9d3e3Ojg4WP90v/aqNp3HbXov3fkAYJ8WGTQqmvr00vWJP9l0ffv0FYOmenx8XAeKfrpNnwglx/2f6n6+OoV6hjiAHy0uaB4eHtZF8/b2tu0X9WmMxnb9+/I7BI0/4WTbZ++foAH+LIsNmvv7+7Zf1LekoNE4FU/Jgq9r3f5RcdUnjF3HOjysBo2vr+trjdyreB1d77acS+fUde73n+Ryv1lkXXRzbc9X953XpTquhmI9l/ck2Z6f2ur9zWvUV9fIMe7Pe6Q9qE/tbpNcE8CrxQWNvuTXf9AXFxdtv6hPY6YfCHDBrO1a24VJhSWLi9tdLF3INc+mwip1DhfnSvNp3lpcc3yu6324T3L/orXz+uzXz7qe2vIseQ+8Xp5H7/M+5v46ea3P6/Hej/u1nnhcruMz1PN5j55T/R5r6veZ1Z/vtUbdw7bfLfCnW+R3NP4OpitGalPftu9w9mWXoNHPLGLdGNN83ZmqbYVLRS8LsWiPuYcsoi6q7pPcm8bleNE1nq87XxZd0bXeb7deLeR1vY9obq+Xr5Pmr/dFuvNJ7qnuT/KM6q9z55wat+n3BeDf/166xs/29PT0/f+f0WPN+hOZ6LXa1Kcx3bX7pLU2BU22qwip8EiOcVvqiqT4X8mpG9cVxX0ETeXC2RXwbryoryu6tVBrbC38VZ3b93vTtd19EZ+vtue5umt1TQbNtv7uzADeLDJoxI8xd7rHnidsKl6b/lWtYuiCo31mGG2jNbJQae6uOEq3J73Xen6fxbibS2M9x6ZCbBrngmw5f9UVXV2fc2y73vvJ+6v5Mmi6e1/XMM9X19NY34N8bbnOR/3dmQG8WWTQ+DsYfXLRawWL6LU/6Wz7DmdfVEBqYVPByaKSBcjj9VqF0a8/UoukXm+61mu4cLqQ/teg8ftcP2lc7dP7XC9pvV2CJu9pqvv1eweN5sn51W91Xp9Re839eqzvUf1d6bqcS2vm/ZLs93zZD+DN4oLGIaOf3Zf9assxtX/fXISsK6LZXwtd9m0qzpLjPGc3TnJe7Ud7zLnV/jNBI5rHc4oLu8ZlSJjmyPGeT+t9FDTefx1neU+1js/Y9YvbfVbLa+p+fX+6fu/Pv0utV+9X9ouvz3MCeLWooPGjzbsEiMNm+hFnAMCvWVTQ6Eky/Wlsl8eWNUZjz87O2n4AwDIsKmh2/TRj/lTT9QEAlmExQeM/m/3ME2V+Mq3+vR0AsByLexgAAPB7IWgAAKMIGgDAKIIGADCKoAEAjCJoAACjCBoAwCiCBgAwiqABAIwiaAAAowgaAMAoggYAMIqgAQCMImgAAKMIGgDAKIIGADCKoAEAjCJoAACjCBoAwCiCBgAw6nvQ/PX3NwAA9oagAQCMes2Xl9U/Gc1q6Orsj0QAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="338c9f40-1964-4998-9e7d-5e4fa319d6b1" DisplayName="CV Screen Scope 'credentialuibroker.exe ...'" sap:VirtualizedContainerService.HintSize="434,656" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V3">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DesignTimeCacheId="338c9f40-1964-4998-9e7d-5e4fa319d6b1" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_1" InformativeScreenshot="5029e31194b415a3b984e404dcfd4c8e" Version="V3">
+                      <p:CvTypeIntoWithDescriptor.Descriptor>
+                        <InArgument x:TypeArguments="uc:CvDescriptor">
+                          <mca:CSharpValue x:TypeArguments="uc:CvDescriptor" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3" xml:space="preserve">"Target: InputBox (26,116,295,33)" +
+"Anchor: InputBox (26,159,294,33)"</mca:CSharpValue>
+                        </InArgument>
+                      </p:CvTypeIntoWithDescriptor.Descriptor>
+                      <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor>
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="26, 159, 294, 33" ElementType="InputBox" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="26, 116, 295, 33" ElementType="InputBox" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                      <p:CvTypeIntoWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b34bfb7e-c614-4c93-9708-ac158df2743d">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvTypeIntoWithDescriptor.Target>
+                      <p:CvTypeIntoWithDescriptor.Text>
+                        <InArgument x:TypeArguments="uc:CvString">
+                          <mca:CSharpValue x:TypeArguments="uc:CvString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"rannabathina"</mca:CSharpValue>
+                        </InArgument>
+                      </p:CvTypeIntoWithDescriptor.Text>
+                    </p:CvTypeIntoWithDescriptor>
+                    <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DesignTimeCacheId="338c9f40-1964-4998-9e7d-5e4fa319d6b1" DesignTimeScaleFactor="1" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_2" InformativeScreenshot="5e5c9576acd198cc4bca9db8a7cb7da9" Version="V3">
+                      <p:CvTypeIntoWithDescriptor.Descriptor>
+                        <InArgument x:TypeArguments="uc:CvDescriptor">
+                          <mca:CSharpValue x:TypeArguments="uc:CvDescriptor" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5" xml:space="preserve">"Target: InputBox (26,159,294,33)" +
+"Anchor: InputBox (26,116,295,33)"</mca:CSharpValue>
+                        </InArgument>
+                      </p:CvTypeIntoWithDescriptor.Descriptor>
+                      <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor>
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="26, 116, 295, 33" ElementType="InputBox" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="26, 159, 294, 33" ElementType="InputBox" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
+                      <p:CvTypeIntoWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="78ed34fc-9504-4698-b0de-e2783bc32963">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvTypeIntoWithDescriptor.Target>
+                      <p:CvTypeIntoWithDescriptor.Text>
+                        <InArgument x:TypeArguments="uc:CvString">
+                          <mca:CSharpValue x:TypeArguments="uc:CvString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"Aspire@12345[k(enter)]"</mca:CSharpValue>
+                        </InArgument>
+                      </p:CvTypeIntoWithDescriptor.Text>
+                    </p:CvTypeIntoWithDescriptor>
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache OcrTexts="{x:Null}" DisplayName="Screen CV Click - InputBox (Main)" Id="338c9f40-1964-4998-9e7d-5e4fa319d6b1" InformativeScreenshot="0ad7ab6e4f3f217c0aca002b77e5130f" LogicalPosition="454, 73" Position="454, 73" ScreenshotGuid="363d89fc-4895-4035-b302-ddd872dcf0bb" ServerVersion="1">
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="32">
+                            <uc:CvElementInfo Category="Icon" Region="45, 347, 39, 38" />
+                            <uc:CvElementInfo Category="InputBox" Region="26, 116, 295, 33" />
+                            <uc:CvElementInfo Category="Button" Region="24, 538, 202, 34" />
+                            <uc:CvElementInfo Category="Button" Region="228, 538, 204, 34" />
+                            <uc:CvElementInfo Category="CloseButton" Region="425, 9, 16, 16" />
+                            <uc:CvElementInfo Category="InputBox" Region="26, 159, 294, 33" />
+                            <uc:CvElementInfo Category="CheckBox" Region="24, 210, 21, 20" />
+                            <uc:CvElementInfo Category="Icon" Region="48, 471, 32, 35" />
+                            <uc:CvElementInfo Category="Icon" Region="49, 288, 32, 32" />
+                            <uc:CvElementInfo Category="Icon" Region="48, 411, 33, 33" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="47, 409, 35, 35" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="47, 471, 36, 36" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="49, 289, 31, 32" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="20, 334, 412, 59" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="23, 159, 298, 34" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="26, 116, 298, 34" />
+                            <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="43, 282, 44, 50" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0147e980-2d8e-40fb-b4fb-765d23230833" InformativeScreenshot="73f0b64f54cf4bd087876f3ee6f611b2" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+              <p:CVScope.UseLocalServer>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </p:CVScope.UseLocalServer>
+            </p:CVScope>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 40.122.31.27 - Remote Desktop Connection" sap:VirtualizedContainerService.HintSize="434,546" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" ScopeGuid="82c0b5df-c4e6-4c32-9a3a-8dc331020186" Version="V1">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,257" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="334,163" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V1" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 1366, 768" FilePath="C:\\Windows\\System32\\mstsc.exe" IconBase64="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" InformativeScreenshot="de58021c648c69a5d6699c39229a754b.png" Selector="&lt;wnd app='mstsc.exe' cls='TscShellContainerClass' title='40.122.31.27 - Remote Desktop Connection'/&gt;" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="454, 73, 456, 348" FilePath="C:\\Windows\\System32\\credentialuibroker.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ9SURBVFhH7ZfbU1tVFMYzffDF6av/gDP+Fb5jbbWWcmmh15RWqTN0KgUBgZJA7gGaBqiU0BAuIRACxWq1WF9rIfWhT/pU3/AFyO3k5Aqfa52TyymelItOfNA9880+7L3Z32+tvc7JOZr/27/eLHZHp67PjHKqz2jTkfVbpCMak8W289urdbz89XfSq39Un7U7VHuGIPN3JAizdUD8eTWIv6PVtRdYC/6CtReyVun6OY2x1NbnAN4lva2hdIixeALpVBKpZOIQkv8vqaLda9lDTGXyAO+RjhKAVeTBcuovAJlsVppYWXmGpz+93JdWfnyGbCYtKRgMqiof+fvXJyTxtSpANgfAG1d1LaC624+annnU6udwxuDDWZMP9TYv6vtncN4xhQvOSWntH+vrSCXiBaNSOhDAZfMytNaH0NqW0DCwiKuOAK45F/DpyDwaR+dw3eXD5+5ZBYCgGj1rXwD8x7YCoMn5HZqGv8WNe49w8z7JtYxm90Pc8iyhZXoRrd4A2ub8BYA0AfDGyaQo9wm5V4rNK3qHpWtVAEGUJ3jTtvEn6HD/gA7P9+icfowvyPyG24/GcS+ujLmhdY2jYcJVBBDjqtGz8gBsfuqerTRAVBALAHrvU9yeeYKGIR9OmsfwgXEIH1rv4kS/Ax/dGcRJZz9OjdgUALkMUOTS7cf9riywef1Mz/4Amh98gxOGUVT0DeOY2YnjNjIfuIOP7w7gk2G7tNnp+xYFQEw1elYegM0bHzeVBogpACr0I3LUFjIvRE3mI3ZUfm3F6TEzqh8YiwBUA0l6GCXoKPKGu8XmbwaIFwGOmXIp56gdZD5EKaeoK0ctqHKZUOM24IyntwCQoiNQi551AAB5gjc9bqeoBxUp56gp5dXjJtRO9OHspB51lNICQFw40GN8TwBloVWOWlFFKa+hlNd6yHxKR+d5G+d9XUUAOgK16FmHAlAWWnU+5ZO9qJvuwTlvNy7MdeKSv/01gFTuDlAz3K09AZSFJqV8Si9HPduFi/Nf4dJCO7SLrQWABNUAF6DaA4jHRJqLRqMIh8OIhEN7AygLrW5aR1Fzyjtx0d+By4E2XFlqRcPyrQJA8g23YTJB+xJgJBJGKBRCOLRVAkDxJFQW2rlZTjlFTSnXBr4k8xZcXW7GtUc3FQBR1ejzGYhTkXLkm5ub2NraVAeIi/KLwuTUorTxfjThCchHQAZq0bPigoBYNELGWzIASRUgEpMzwL/tvOlBFI8VM8A914MgxBClcT53jnpjY0NSSYBQNAH+ScZ2CumkACANZGksFUeGhO0kje2Qtkm0jueRwk5GLjI2ls1FCJSRGJlHKfIwnT2ff16cjZIAPFEuvQbA7+jdOkOCBw+jXqMVRosdFvsgTNZBGEw26FXWKdXc0j5E5vJbMTX+QOB3dB5gqnKIveTvAmpHchdMc7RMYi/5y+g/3jSaPwH2G61IeD/6MgAAAABJRU5ErkJggg==" InformativeScreenshot="6ffdc62aa2bf38cb18fb394e1f759a5b.png" Selector="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

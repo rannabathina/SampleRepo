@@ -1,0 +1,12 @@
+﻿{
+  "Id": "UwUKkA3AnEqnBpQh5hNjbQ",
+  "Reference": "h5eySbOxI0-gyt_eCMnC5A/UwUKkA3AnEqnBpQh5hNjbQ",
+  "Name": "Chrome: Rpa Challenge app",
+  "Description": "This is first name text box location",
+  "Type": "App",
+  "Created": "2021-11-02T10:52:40.0503815Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-02T10:52:40.0503815Z"
+}

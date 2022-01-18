@@ -1,0 +1,12 @@
+﻿{
+  "Id": "G0fzNByx-EqbA8NnIUvh9g",
+  "Reference": "Fj9DIjzMAk2b5iwgvUNrRg/G0fzNByx-EqbA8NnIUvh9g",
+  "ParentRef": "Fj9DIjzMAk2b5iwgvUNrRg/XaN1W1-W_02eJibqcz6zqw",
+  "Name": "Remote Desktop Connection",
+  "Type": "Screen",
+  "Created": "2021-11-09T06:27:12.1052693Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-09T06:27:12.1052693Z"
+}
